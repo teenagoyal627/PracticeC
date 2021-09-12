@@ -17,6 +17,7 @@ unsigned int factorial(unsigned int n){
 int main(){
 
     int num;
+    cout<<"Please enter a number ";
     cin >> num;
 
     cout << "Factorial of " << num << " is " << factorial(num) << endl;
