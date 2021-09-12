@@ -1,8 +1,8 @@
+// Using this program we can calculate factorial of given number.
 #include <iostream>
 
 using namespace std;
 
-// function to find factorial of given number
 
 unsigned int factorial(unsigned int n){
 
