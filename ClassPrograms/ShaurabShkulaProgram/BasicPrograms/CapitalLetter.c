@@ -5,6 +5,6 @@ int main()
     printf("Enter a char");
     scanf("%c",ch);
     ch=ch-32;
-    printf("%c",ch);
+    printf("%d",ch);
     return 0;
 }
