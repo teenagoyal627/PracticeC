@@ -10,12 +10,12 @@ int main()
             {
                 printf(" ");
             }
-            for(j=i;j>=1;j--)
+            for(j=n;j>=n-i+1;j--)
             {
                 printf("%d",j);
 
             }
-            for(k=j+2;k<=i;k++)
+            for(k=j+2;k<=n;k++)
             {
                 printf("%d",k);
             }
