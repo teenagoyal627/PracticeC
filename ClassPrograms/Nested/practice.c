@@ -1,18 +1,24 @@
 #include<stdio.h>
 int main()
 {
-int j,i,a;
+int  s,j,i,a;
 //char ch;
 printf("Enter the no.  ");
 scanf("%d",&a);
 for(i=1;i<=a;i++)
 {
-    for(j=1;j>=1;j--)
+    for(s=1;s<=a-i;s++)
     {
-        printf("%d",j);
+        printf(" ");
     }
 
+    for(j=1;j<=i;j++)
+    {
+        printf("*   ");
+        
+    }
 
+     printf("\n");
     printf("\n");
 }
 
