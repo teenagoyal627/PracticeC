@@ -6,11 +6,11 @@ printf("Enter the number  ");
 scanf("%d",&n);
 for(i=1;i<=n;i++)
 {
-    for(j=1;j<=n;j++)
+    for(j=1;j<=n/2+1;j++)
     {
-        if(i==n/2+1||j==1||j==n)
+        if(i==1||i==n||j==n/2+1)
         {
-            printf("*");
+            printf(" * ");
         }
         else
         printf(" ");
