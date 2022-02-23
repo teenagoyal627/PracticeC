@@ -2,3 +2,5 @@
 *.exe
 structure.c/EmpolyDetails.c
 AlphabatesPattern.c/square.c
+AlphabatesPattern.c/A.c
+AlphabatesPattern.c/string.c/PrintName.c
