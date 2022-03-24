@@ -10,6 +10,6 @@ for(i=0;a[i]!=0;i++)
     l=l+1;
 
 }
-printf("%d",l);
+printf("length of  string  %d",l);
 return 0;
 }
