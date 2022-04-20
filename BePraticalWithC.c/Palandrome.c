@@ -12,7 +12,7 @@ while(n>0)
     rev=rev*10+r;
     n=n/10;
 }
-printf("Reverse of number is %d",rev);
+printf("Reverse of number is -%d",rev);
 if (rev==t)
 printf("\nNumber is palandrome  ");
 return 0;
