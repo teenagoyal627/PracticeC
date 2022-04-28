@@ -13,16 +13,13 @@ for(i=0;i<=4;i++)
 {
     if (a[i]==num)
     {
-        flag=1;
+        printf("%d",i);
         break;
 
     }
 }
-    if(flag==1)
-    printf("number is exist and its position is %d ",i);
-    else
-
-    printf("number is not exist  ");
+    if(i==5)
+    printf("sorry not found  ");
 
 return 0;
 }
