@@ -2,15 +2,15 @@
 int main()
 {
  void sum (int);
- int a,b,s;
+ int a;
 printf("Enter the numbers  ");
-scanf("%d%d,&a,&b");
-s=sum (a,b);
-printf("%d",s);
+scanf("%d,&a");
+sum (a);
+//printf("%d",a);
 return 0;
 }
-void sum (int c,int d)
+void sum (int x)
 {
-    
-    return(c+d);
+   // return(x);
+   printf("U entered = %d\n",x);
 }
