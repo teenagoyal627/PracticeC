@@ -15,6 +15,7 @@ int main ()
     {
         printf("Enter the Name  of student  %d ",i+1);
         scanf("%s",a[i].name);
+        printf("Enter the class and roll no of student %d",i+1);
         scanf("%d%d",&a[i].c ,&a[i].rollno);
     }
     printf("Student's Details  \n");
